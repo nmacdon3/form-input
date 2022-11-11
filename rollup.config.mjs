@@ -20,7 +20,7 @@ export default {
     },
   ],
   plugins: [
-    peerDepsExternal({ packageJsonPath: "./package.json" }),
+    peerDepsExternal(),
     resolve(),
     commonjs(),
     typescript({ useTsconfigDeclarationDir: true }),
