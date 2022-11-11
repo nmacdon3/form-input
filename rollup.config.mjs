@@ -15,7 +15,7 @@ export default {
     },
   ],
   plugins: [
-    peerDepsExternal(),
+    peerDepsExternal({ packageJsonPath: "./package.json" }),
     resolve(),
     commonjs(),
     typescript({ useTsconfigDeclarationDir: true }),
