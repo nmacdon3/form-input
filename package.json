@@ -6,7 +6,7 @@
   "module": "lib/index.esm.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "build": "rollup -c",
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider rollup -c",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
@@ -45,6 +45,7 @@
   },
   "dependencies": {
     "classnames": "^2.3.2",
+    "cross-env": "^7.0.3",
     "formik": "^2.2.9"
   }
 }

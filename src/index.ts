@@ -1,5 +1,4 @@
 import { FormInput } from "./components/FormInput";
-import "index.css";
 
 export { FormInput };
 
