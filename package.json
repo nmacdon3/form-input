@@ -1,5 +1,5 @@
 {
-  "name": "@nmacdon3/form-input",
+  "name": "formik-form-input",
   "version": "1.0.0",
   "description": "An input I like to use across repositories that utilizes Formik context",
   "main": "lib/index.js",
