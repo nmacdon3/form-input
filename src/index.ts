@@ -1,7 +1,6 @@
-import Button from "./components/Button";
+import { FormInput } from "./components/FormInput";
 import "index.css";
 
-export { Button };
+export { FormInput };
 
-//Can probably remove CommonJS
 //was able to fix build error by running export NODE_OPTIONS=--openssl-legacy-provider
